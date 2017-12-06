@@ -19,7 +19,7 @@ li:first-child, li:nth-child(2){
 li {
   display: inline;
   padding-left:15px;
-  font-size: 12px;
+  font-size: 14px;
   float:right;
 }
 
@@ -30,4 +30,34 @@ a:link, a:visited, a:hover, a:active {
 
 .topright {
     display: inline-block;
+}
+
+.logo {
+  padding-top:120px;
+  margin:auto;
+  width:300px;
+}
+
+.bar{
+  width: 50%;
+  margin: auto;
+  position: relative;
+  box-shadow: 12px 4px 10px grey;
+}
+
+.buttons {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.button {
+  background-color: #e7e7e7;
+  border: 1px solid #e7e7e7;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  text-align: center;
+  padding: 10px;
 }
